@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+* {
+    box-sizing: border-box;
+    font-family: Dancing Script;
+    color: black;
+    outline: 1px dashed blue
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: rgba(170, 164, 164, 0.975);
+    background-image: url("Images/Dragon\ Smoke.png");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.main-header {
+    background-color:rgba(0, 0, 0, .40);
+      /* background-image: url("Images/demonic\ eyes.jpg");
+      background-blend-mode: multiply;
+      background-size: 2160px 125px;
+      background-repeat: no-repeat; */
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(9, 241, 9);
+}
+.nav a:hover {
+    background-color: rgba(116, 111, 111, .8);
+}
+.main-nav {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: lighter;
+    /* border-bottom: 1px solid rgba(255, 0, 0, .75); */
+}
+.main-nav li {
+    padding: 0 2.5%;
+}
+.clan-name {
+    text-align: center;
+    font-size: 4em;
+    color: rgba(9, 241, 9, .5);
+}
+.container {
+    max-width: 900px;
+    margin: 1 auto;
+    padding: 0 1.5em;
+    background-color: rgba(116, 111, 111, 0.336);
+}
+.join button {
+    padding: .5em;
+    color: rgb(9, 241, 9);
+    background-color: rgba(0, 0, 0, .4);
+    border: none;
+    border-radius: 8px;
+}
+.join a:hover {
+    background-color: rgba(0, 255, 0, .75);
+}
+.join-row {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.join-section {
+    display: flex;
+    flex-direction: column;
+}
+.coc-body > div {
+    margin-bottom: 8px;
+}
