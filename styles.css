@@ -73,6 +73,9 @@ html {
     justify-content: space-between;
     margin-bottom: 15px;
 }
+.join-row > div {
+    width: 33%;
+}
 .join-section {
     display: flex;
     flex-direction: column;
