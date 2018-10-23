@@ -3,7 +3,7 @@
     box-sizing: border-box;
     font-family: Dancing Script;
     color: black;
-    outline: 1px dashed blue
+    /* outline: 1px dashed blue */
 }
 html, body {
     margin: 0;
