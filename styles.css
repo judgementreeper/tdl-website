@@ -11,13 +11,8 @@ html, body {
     padding: 0;
 }
 html {
-<<<<<<< HEAD
     background-color: rgba(0, 0, 0, .75);
     background-image: url("Images/diablo.jpg");
-=======
-    background-color: rgba(170, 164, 164, 0.975);
-    background-image: url("https://cdn.hipwallpaper.com/i/57/84/JCut6A.jpg");
->>>>>>> 538563545e42a1b539f9b92148220e190e3aba00
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;   
