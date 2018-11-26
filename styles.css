@@ -17,9 +17,9 @@ html {
     background-repeat: no-repeat;
     background-size: cover;   
 }
-.main-header {
-    /* background-color:rgba(0, 0, 0, .40); */
-}
+/* .main-header {
+    background-color:rgba(0, 0, 0, .40);
+} */
 .nav ul {
     margin: 0;
 }
