@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     /* font-family: Permanent Marker; */
-    color: black;
+    color: rgb(189, 174, 174);
     /* outline: 1px dashed blue */
 }
 html, body {
@@ -11,18 +11,14 @@ html, body {
     padding: 0;
 }
 html {
-    background-color: rgba(170, 164, 164, 0.975);
-    background-image: url("Images/Dragon\ Smoke.png");
+    background-color: rgba(0, 0, 0, .75);
+    background-image: url("Images/diablo.jpg");
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;   
 }
 .main-header {
-    background-color:rgba(0, 0, 0, .40);
-      /* background-image: url("Images/demonic\ eyes.jpg");
-      background-blend-mode: multiply;
-      background-size: 2160px 125px;
-      background-repeat: no-repeat; */
+    /* background-color:rgba(0, 0, 0, .40); */
 }
 .nav ul {
     margin: 0;
@@ -33,11 +29,11 @@ html {
 .nav a {
     display: inline-block;
     padding: .5em;
-    color: rgb(9, 241, 9);
+    color: rgb(255, 0, 0);
     text-decoration: none;
 }
 .nav a:hover {
-    background-color: rgba(116, 111, 111, .8);
+    background-color: rgba(255, 0, 0, 0.329);
 }
 .main-nav {
     font-family: Dancing Script;
@@ -60,17 +56,17 @@ html {
     max-width: 900px;
     margin: 1 auto;
     padding: 0 1.5em;
-    background-color: rgba(116, 111, 111, 0.336);
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 .join button {
     padding: .5em;
-    color: rgb(9, 241, 9);
-    background-color: rgba(0, 0, 0, .4);
+    color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, .25);
     border: none;
     border-radius: 8px;
 }
 .join a:hover {
-    background-color: rgba(0, 255, 0, .75);
+    background-color: rgba(255, 0, 0, .50);
 }
 .join-row {
     width: 650px;
