@@ -16,7 +16,7 @@ html {
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top center;
+    background-position: center top;
     background-size: cover;
     height: 100%;
 }
