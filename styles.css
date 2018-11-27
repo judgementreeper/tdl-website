@@ -76,7 +76,7 @@ html {
     background-color: rgba(0, 0, 0, .75);
 }
 .join-row {
-    width: 900px;
+    width: 850px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
