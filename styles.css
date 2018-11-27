@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script");
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker');
+@font-face {
+    font-family: gushing meadow;
+    src: url(Fonts/sf-gushing-meadow.regular.ttf);
+}
+@font-face {
+    font-family: zombie holocaust;
+    src: url(Fonts/zombie-holocaust.regular.ttf)
+}
+@font-face {
+    font-family: espinhuda;
+    src: url(Fonts/vtks-espinhuda.regular.ttf)
+}
+
 * {
     box-sizing: border-box;
     /* font-family: Permanent Marker; */
@@ -38,7 +51,7 @@ html {
     background-color: rgba(0, 0, 0, 0.75);
 }
 .main-nav {
-    font-family: Dancing Script;
+    font-family:  gushing meadow;
     text-align: center;
     font-size: 1.5em;
     font-weight: lighter;
@@ -47,12 +60,22 @@ html {
 .main-nav li {
     padding: 0 2.5%;
 }
+.clan-div {
+    display: flex;
+    justify-content: center;
+}
 .clan-name {
-    font-family: Permanent Marker;
+    font-family:  gushing meadow;
+    font-weight: lighter;
+    /* letter-spacing: 0.5em; */
+    /* padding: 10px 0; */
+    /* font-stretch: ultra-expanded; */
     text-align: center;
     font-size: 4em;
     color: rgba(255, 0, 0, 0.75);
-    background-color: rgba(0, 0, 0, .5)
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 0 .25em;
 }
 .main-div {
     display: flex;
@@ -60,20 +83,24 @@ html {
 }
 .container {
     font-family: Permanent Marker;
+    font-weight: lighter;
+    font-size: 1.25em;
     width: 900px;
     margin: 1 auto;
-    padding: 0 1.5em;
+    padding: 0 .5em;
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 .join button {
     padding: .5em;
     color: rgb(255, 0, 0);
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, .5);
     border: none;
     border-radius: 8px;
 }
 .join a:hover {
     background-color: rgba(0, 0, 0, .75);
+    border-radius: 8px;
 }
 .join-row {
     width: 850px;
