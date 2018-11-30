@@ -15,9 +15,7 @@
 
 * {
     box-sizing: border-box;
-    /* font-family: Permanent Marker; */
-    color: rgb(189, 174, 174);
-    /* outline: 1px dashed blue */
+    outline: 1px dashed blue
 }
 html, body {
     margin: 0;
@@ -31,21 +29,41 @@ html {
     background-attachment: fixed;
     background-position: top center;
     background-size: cover;
-    height: 100%;
+    /* height: 100%; */
+}
+.background {
+    /* background-image: url("Images/diablo.jpg");
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-header {
+    width: 100%;
+}
+.nav {
+    width: 100%;
 }
 .nav ul {
     margin: 0;
+    width: 100%;
 }
 .nav li {
     display: inline;
 }
 .nav a {
     display: inline-block;
-    padding: .5em;
-    color:rgb(255, 0, 0);
+    color: #9e1524;
     background-color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 .nav a:hover {
     background-color: rgba(0, 0, 0, 0.75);
@@ -53,54 +71,111 @@ html {
 .main-nav {
     font-family:  gushing meadow;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: lighter;
-    /* border-bottom: 1px solid rgba(255, 0, 0, .75); */
+    display: flex;
+    width: 100%;
 }
 .main-nav li {
     padding: 0 2.5%;
 }
-.clan-div {
-    display: flex;
-    justify-content: center;
-}
 .clan-name {
     font-family:  gushing meadow;
     font-weight: lighter;
-    /* letter-spacing: 0.5em; */
-    /* padding: 10px 0; */
-    /* font-stretch: ultra-expanded; */
     text-align: center;
     font-size: 4em;
-    color: rgba(255, 0, 0, 0.75);
+    color: #645a6c;
     background-color: rgba(0, 0, 0, .5);
-    border-radius: 10px;
     padding: 0 .25em;
-}
-.main-div {
-    display: flex;
-    justify-content: center;
 }
 .container {
     font-family: Permanent Marker;
+    color: #645a6c;
     font-weight: lighter;
-    font-size: 1.25em;
+    font-size: 1em;
     width: 900px;
-    margin: 1 auto;
-    padding: 0 .5em;
+    margin: 0 auto;
+    /* padding: 0 .5em; */
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
-.join button {
-    padding: .5em;
-    color: rgb(255, 0, 0);
-    background-color: rgba(0, 0, 0, .5);
-    border: none;
-    border-radius: 8px;
+.container a {
+    color: #9e1524;
 }
-.join a:hover {
-    background-color: rgba(0, 0, 0, .75);
-    border-radius: 8px;
+
+
+/* INDEX */
+
+
+.welcome-header {
+    font-size: 2.5em;
+}
+.join-instructions {
+text-align: center;
+}
+.join-link {
+    text-align: center;
+}
+
+
+/* CODE OF CONDUCT */
+
+
+.coc-notice {
+display: flex;
+    justify-content: center;
+}
+.coc-closing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.coc-closing h3 {
+    text-align: center;
+    width: 75%;
+}
+.requirements {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 65%; */
+}
+.requirements h2 {
+    text-align: left;
+    width: 100%;
+}
+.requirements ul {
+    width: 100%;
+}
+.requirements div {
+    width: 70%;
+}
+.join ul {
+    display: flex;
+    justify-content: center;
+}
+.join p {
+    text-align: center;
+}
+.join h3 {
+    text-align: center;
+}
+.join-header {
+    font-size: 1.5em;
+    text-align: left;
+}
+.join-tdlist {
+    display: flex;
+    flex-direction: column;
+}
+.join-section {
+    display: flex;
+    flex-direction: column;
+}
+.join-section div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 .join-row {
     width: 850px;
@@ -111,10 +186,74 @@ html {
 .join-row > div {
     width: 33%;
 }
-.join-section {
+.join a:hover {
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: 8px;
+}
+.join button {
+    padding: .5em;
+    color: #9e1524;
+    background-color: rgba(0, 0, 0, .5);
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* RANKS */
+
+
+.rank a {
+    text-decoration: none;
+}
+.rank a:hover {
+    text-decoration: underline;
+}
+.rank-header {
+    text-align: center;
+}
+.rank {
+    width: 75%;
+}
+.founder {
+    display: flex;
+    flex-direction: row;
+}
+.rank-founder {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
 }
-.coc-body > div {
-    margin-bottom: 8px;
+.rank-admin {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.rank-captain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rank-lieutenant {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rank-sergeant {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rank-sergeant div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.rank-members {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
