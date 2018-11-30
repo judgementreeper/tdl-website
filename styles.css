@@ -23,7 +23,7 @@ html, body {
 }
 html {
     background-image: url("Images/diablo.jpg");
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.25);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -32,14 +32,6 @@ html {
     /* height: 100%; */
 }
 .background {
-    /* background-image: url("Images/diablo.jpg");
-    background-color: rgba(0, 0, 0, 0);
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top center;
-    background-size: cover;
-    height: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,7 +77,7 @@ html {
     text-align: center;
     font-size: 4em;
     color: #645a6c;
-    background-color: rgba(0, 0, 0, .5);
+    /* background-color: rgba(0, 0, 0, .5); */
     padding: 0 .25em;
 }
 .container {
@@ -96,7 +88,7 @@ html {
     width: 900px;
     margin: 0 auto;
     /* padding: 0 .5em; */
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
     border-radius: 10px;
 }
 .container a {
