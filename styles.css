@@ -204,7 +204,7 @@ display: flex;
     text-align: center;
 }
 .rank {
-    width: 75%;
+    width: 50%;
 }
 .founder {
     display: flex;
@@ -217,35 +217,50 @@ display: flex;
     align-items: center;
     width: 100%;
 }
-.rank-admin {
+.rank-cofounder {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     width: 100%;
 }
+.rank-general {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.officer {
+    display: flex;
+    flex-direction: row;
+}
 .rank-captain {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    width: 100%;
 }
 .rank-lieutenant {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .rank-sergeant {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-}
-.rank-sergeant div {
-    display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100%;
 }
 .rank-members {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
+    flex-wrap: wrap;
+    width: 100%;
+    }
+    .rank-members > li {
+        min-width: 35%;
+    } 
