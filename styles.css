@@ -15,7 +15,7 @@
 
 * {
     box-sizing: border-box;
-    /* outline: 1px dashed blue */
+    /* outline: 1px dashed blue; */
 }
 html {
     background-image: url("Images/dest2.jpg");
@@ -40,7 +40,7 @@ html, body {
     width: 100%;
 }
 .nav {
-    width: 100%;
+    /* width: 100%; */
 }
 .nav ul {
     margin: 0;
@@ -193,7 +193,7 @@ display: flex;
 
 
 .rank {
-    width: 70%;
+    width: 900px;
 }
 .rank a {
     text-decoration: none;
@@ -207,39 +207,38 @@ display: flex;
 .founder {
     display: flex;
     flex-direction: row;
-}
-.rank-founder {
     text-align: center;
-    width: 100%;
 }
-.rank-cofounder {
-    text-align: center;
+.rank-founder, .rank-cofounder, .rank-general {
     width: 100%;
-}
-.rank-general {
     text-align: center;
-    width: 100%;
 }
 .officers {
     display: flex;
-    align-items: center;
     flex-direction: column;
     width: 100%;
+    align-items: center;
 }
-.rank-captain, .rank-lieutenant, .rank-sergeant {
-    width: 85%;
-}
+.rank-captain {
+    width: 75%;
+} 
 .rank-captain > .rank-members {
     flex-direction: row;
+    text-align: center;
 }
 .rank-captain > .rank-members > li {
-    width: 50%
+    width: 50%;
+    
 } 
 .lieutenant-left, .lieutenant-right {
     width: 50%;
 }
+.rank-lieutenant, .rank-sergeant {
+    width: 75%;
+}
 .rank-lieutenant > .rank-members, .rank-sergeant > .rank-members {
     flex-direction: row;
+    text-align: center;
 }
 .sergeant-left, .sergeant-mid, .sergeant-right {
     width: 33%;
@@ -250,6 +249,5 @@ display: flex;
 .rank-members {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: space-around;
 }
