@@ -18,17 +18,17 @@
     /* outline: 1px dashed blue */
 }
 html, body {
-    margin: 0;
-    padding: 0;
-}
-html {
     background-image: url("Images/diablo.jpg");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top center;
+    background-position: center;
     background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+html {
     /* height: 100%; */
 }
 .background {
@@ -214,21 +214,18 @@ display: flex;
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
     width: 100%;
 }
 .rank-cofounder {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
     width: 100%;
 }
 .rank-general {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
     width: 100%;
 }
 .officer {
