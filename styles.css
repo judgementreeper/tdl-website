@@ -19,7 +19,6 @@
 }
 html {
     background-image: url("Images/dest2.jpg");
-    /* background-color: rgb(0, 0, 0, .33); */
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -53,7 +52,6 @@ html, body {
 .nav a {
     display: inline-block;
     color: #9e1524;
-    /* background-color: rgba(0, 0, 0, 0.5); */
     text-decoration: none;
     /* border-radius: 8px; */
 }
@@ -77,7 +75,6 @@ html, body {
     text-align: center;
     font-size: 4em;
     color: #9e1524;
-    /* background-color: rgba(0, 0, 0, .5); */
     padding: 0 .25em;
 }
 .container {
@@ -87,12 +84,13 @@ html, body {
     font-size: 1em;
     width: 900px;
     margin: 0 auto;
-    /* padding: 0 .5em; */
-    /* background-color: rgba(0, 0, 0, 0.5); */
     border-radius: 10px;
 }
 .container a {
     color: #9e1524;
+}
+.container a:hover {
+    background-color: black;
 }
 
 
@@ -179,13 +177,13 @@ display: flex;
     width: 33%;
 }
 .join a:hover {
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .95);
     border-radius: 8px;
 }
 .join button {
     padding: .5em;
     color: #9e1524;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .75);
     border: none;
     border-radius: 8px;
 }
@@ -194,6 +192,9 @@ display: flex;
 /* RANKS */
 
 
+.rank {
+    width: 50%;
+}
 .rank a {
     text-decoration: none;
 }
@@ -203,61 +204,52 @@ display: flex;
 .rank-header {
     text-align: center;
 }
-.rank {
-    width: 50%;
-}
 .founder {
     display: flex;
     flex-direction: row;
 }
 .rank-founder {
-    display: flex;
-    flex-direction: column;
     text-align: center;
     width: 100%;
 }
 .rank-cofounder {
-    display: flex;
-    flex-direction: column;
     text-align: center;
     width: 100%;
 }
 .rank-general {
-    display: flex;
-    flex-direction: column;
     text-align: center;
     width: 100%;
 }
-.officer {
+.officers {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.rank-captain, .rank-lieutenant, .rank-sergeant {
+    width: 85%;
+}
+.rank-captain > .rank-members {
     flex-direction: row;
 }
-.rank-captain {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+.rank-captain > .rank-members > li {
+    width: 50%
+} 
+.lieutenant-left, .lieutenant-right {
+    width: 50%;
 }
-.rank-lieutenant {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 100%;
+.rank-lieutenant > .rank-members, .rank-sergeant > .rank-members {
+    flex-direction: row;
 }
-.rank-sergeant {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 100%;
+.sergeant-left, .sergeant-mid, .sergeant-right {
+    width: 33%;
+}
+.rank-sergeant > .rank-members {
+    flex-direction: row;
 }
 .rank-members {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
-    width: 100%;
-    }
-    .rank-members > li {
-        min-width: 35%;
-    } 
+    flex-direction: column;
+    justify-content: space-around;
+}
