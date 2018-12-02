@@ -17,6 +17,9 @@
     box-sizing: border-box;
     /* outline: 1px dashed blue */
 }
+html {
+    /* height: auto; */
+}
 html, body {
     background-image: url("Images/diablo.jpg");
     background-color: rgba(0, 0, 0, 0.5);
@@ -27,9 +30,6 @@ html, body {
     background-size: cover;
     margin: 0;
     padding: 0;
-}
-html {
-    /* height: 100%; */
 }
 .background {
     display: flex;
