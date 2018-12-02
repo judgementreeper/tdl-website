@@ -15,7 +15,7 @@
 
 * {
     box-sizing: border-box;
-    /* outline: 1px dashed blue */
+    outline: 1px dashed blue
 }
 html {
     background-image: url("Images/dest2.jpg");
@@ -193,7 +193,7 @@ display: flex;
 
 
 .rank {
-    width: 50%;
+    width: 70%;
 }
 .rank a {
     text-decoration: none;
