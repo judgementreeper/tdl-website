@@ -19,6 +19,7 @@
 }
 html {
     background-image: url("Images/dest2.jpg");
+    background-color: rgba(255, 255, 255, 0.25);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -81,7 +82,7 @@ html, body {
     font-family: Permanent Marker;
     color: rgb(0, 0, 0);
     font-weight: lighter;
-    font-size: 1em;
+    font-size: 1.2em;
     width: 900px;
     margin: 0 auto;
     border-radius: 10px;
@@ -128,7 +129,6 @@ display: flex;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* width: 65%; */
 }
 .requirements h2 {
     text-align: left;
@@ -183,9 +183,10 @@ display: flex;
 .join button {
     padding: .5em;
     color: #9e1524;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .5);
     border: none;
     border-radius: 8px;
+    font-size: 1em;
 }
 
 
@@ -219,7 +220,7 @@ display: flex;
     width: 100%;
     align-items: center;
 }
-.rank-captain {
+.rank-captain, .rank-lieutenant, .rank-sergeant {
     width: 75%;
 } 
 .rank-captain > .rank-members {
@@ -233,12 +234,9 @@ display: flex;
 .lieutenant-left, .lieutenant-right {
     width: 50%;
 }
-.rank-lieutenant, .rank-sergeant {
-    width: 75%;
-}
 .rank-lieutenant > .rank-members, .rank-sergeant > .rank-members {
     flex-direction: row;
-    text-align: center;
+    text-align: left;
 }
 .sergeant-left, .sergeant-mid, .sergeant-right {
     width: 33%;
