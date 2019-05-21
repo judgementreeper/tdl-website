@@ -19,9 +19,8 @@
 }
 html {
     background-image: url("Images/Outbreak_Prime_Perfected_4K.jpg");
-
     /* background-image: url("Images/dest2.jpg"); */
-    background-color: rgba(255, 255, 255, 0.25);
+    /* background-color: rgba(255, 255, 255, 0.25); */
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,7 +53,7 @@ html, body {
 }
 .nav a {
     display: inline-block;
-    color: #9e1524;
+    color: #06e406;
     text-decoration: none;
     /* border-radius: 8px; */
 }
@@ -77,7 +76,7 @@ html, body {
     font-weight: lighter;
     text-align: center;
     font-size: 4em;
-    color: #9e1524;
+    color: #000000;
     padding: 0 .25em;
 }
 .container {
@@ -85,8 +84,9 @@ html, body {
     color: rgb(6, 127, 241);
     font-weight: lighter;
     font-size: 1.35em;
-    width: 900px;
+    width: 950px;
     margin: 0 auto;
+    padding: 50px;
     border-radius: 10px;
     background-color: rgba(2, 2, 2, 0.75);
 
@@ -189,8 +189,8 @@ display: flex;
 }
 .join button {
     padding: .5em;
-    color: #9e1524;
-    background-color: rgba(255, 255, 255, .5);
+    color: #06e406;
+    background-color: rgba(2, 2, 2, .5);
     border: none;
     border-radius: 8px;
     font-size: 1em;
@@ -228,18 +228,18 @@ display: flex;
     align-items: center;
 }
 .rank-captain, .rank-lieutenant, .rank-sergeant {
-    width: 75%;
+    width: 100%;
 } 
 .rank-captain > .rank-members {
     flex-direction: row;
     text-align: center;
 }
 .rank-captain > .rank-members > li {
-    width: 50%;
+    width: 15%;
     
 } 
 .lieutenant-left, .lieutenant-right {
-    width: 50%;
+    width: 15%;
 }
 .rank-lieutenant > .rank-members, .rank-sergeant > .rank-members {
     flex-direction: row;
