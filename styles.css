@@ -18,7 +18,9 @@
     /* outline: 1px dashed blue; */
 }
 html {
-    background-image: url("Images/dest2.jpg");
+    background-image: url("Images/Outbreak_Prime_Perfected_4K.jpg");
+
+    /* background-image: url("Images/dest2.jpg"); */
     background-color: rgba(255, 255, 255, 0.25);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
@@ -86,6 +88,8 @@ html, body {
     width: 900px;
     margin: 0 auto;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+
 }
 .container a {
     color: #9e1524;
