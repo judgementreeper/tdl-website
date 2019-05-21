@@ -82,7 +82,7 @@ html, body {
 }
 .container {
     /* font-family: Permanent Marker; */
-    color: rgb(6, 29, 241);
+    color: rgb(6, 127, 241);
     font-weight: lighter;
     font-size: 1.2em;
     width: 900px;
@@ -92,7 +92,7 @@ html, body {
 
 }
 .container a {
-    color: #9e1524;
+    color: #06e406;
 }
 .container a:hover {
     background-color: black;
