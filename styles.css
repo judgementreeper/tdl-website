@@ -89,7 +89,6 @@ html, body {
     padding: 50px;
     border-radius: 10px;
     background-color: rgba(2, 2, 2, 0.75);
-
 }
 .container a {
     color: #06e406;
@@ -101,14 +100,13 @@ html, body {
 
 /* INDEX */
 
-
 .welcome-header {
     font-size: 2.5em;
 }
-.join-instructions {
-text-align: center;
+.join-head {
+    text-align: center;
 }
-.join-link {
+.join-instructions {
     text-align: center;
 }
 
@@ -116,6 +114,10 @@ text-align: center;
 /* CODE OF CONDUCT */
 
 
+.coc-section {
+    border-radius: 0;
+    padding: 5px;
+}
 .coc-notice {
 display: flex;
     justify-content: center;
@@ -145,7 +147,7 @@ display: flex;
     width: 70%;
 }
 .join {
-    /* background-color: rgba(255, 255, 255, .25); */
+    border-radius: 0;
 }
 .join ul {
     display: flex;
