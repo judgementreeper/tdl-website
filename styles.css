@@ -19,8 +19,6 @@
 }
 html {
     background-image: url("Images/Outbreak_Prime_Perfected_4K.jpg");
-    /* background-image: url("Images/dest2.jpg"); */
-    /* background-color: rgba(255, 255, 255, 0.25); */
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -61,7 +59,6 @@ html, body {
     background-color: rgba(0, 0, 0, 0.75);
 }
 .main-nav {
-    /* font-family:  Permanent Marker; */
     text-align: center;
     font-size: 1.25em;
     font-weight: lighter;
@@ -72,7 +69,6 @@ html, body {
     padding: 0 2.5%;
 }
 .clan-name {
-    /* font-family:  Permanent Marker; */
     font-weight: lighter;
     text-align: center;
     font-size: 4em;
@@ -80,7 +76,6 @@ html, body {
     padding: 0 .25em;
 }
 .container {
-    /* font-family: Permanent Marker; */
     color: rgb(6, 127, 241);
     font-weight: lighter;
     font-size: 1.35em;
@@ -100,6 +95,7 @@ html, body {
 
 /* INDEX */
 
+
 .welcome-header {
     font-size: 2.5em;
 }
@@ -116,10 +112,9 @@ html, body {
 
 .coc-section {
     border-radius: 0;
-    padding: 5px;
 }
 .coc-notice {
-display: flex;
+    display: flex;
     justify-content: center;
 }
 .coc-closing {
