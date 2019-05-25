@@ -15,10 +15,10 @@
 
 * {
     box-sizing: border-box;
-    /* outline: 1px dashed blue; */
+    outline: 1px dashed blue;
 }
 html {
-    background-image: url("Images/Outbreak_Prime_Perfected_4K.jpg");
+    background-image: url("Images/outbreak.jpg");
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
