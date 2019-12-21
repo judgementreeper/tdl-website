@@ -58,14 +58,14 @@ html, body {
 .nav a:hover {
     background-color: rgba(0, 0, 0, 0.75);
 }
-.main-nav {
+.top-nav {
     text-align: center;
     font-size: 1.25em;
     font-weight: lighter;
     display: flex;
     width: 100%;
 }
-.main-nav li {
+.top-nav li {
     padding: 0 2.5%;
 }
 .clan-name {
