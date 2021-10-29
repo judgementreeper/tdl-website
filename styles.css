@@ -80,7 +80,7 @@ html, body {
     color: rgb(6, 127, 241);
     font-weight: lighter;
     font-size: 1.35em;
-    width: 950px;
+    width: 1000px;
     margin: 0 auto;
     padding: 50px;
     border-radius: 10px;
@@ -109,9 +109,19 @@ html, body {
 
 /* CODE OF CONDUCT */
 
+.notice {
+    color: rgb(6, 127, 241);
+    text-align: center;
+}
 
-.coc-section {
+.rules {
     border-radius: 0;
+    text-align: left;
+    outline: 1px dashed blue;
+}
+.clan-name {
+    color: rgb(6, 127, 241);
+    text-align: center;
 }
 .coc-notice {
     display: flex;
@@ -132,7 +142,7 @@ html, body {
     flex-direction: column;
 }
 .requirements h2 {
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 .requirements ul {
@@ -156,7 +166,7 @@ html, body {
 }
 .join-header {
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
 }
 .join-tdlist {
     display: flex;
@@ -197,9 +207,6 @@ html, body {
 /* RANKS */
 
 
-.rank {
-    width: 1000px;
-}
 .rank a {
     text-decoration: none;
 }
@@ -209,47 +216,22 @@ html, body {
 .rank-header {
     text-align: center;
 }
-.founder {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-.rank-founder {
-    width: 100%;
-    text-align: center;
-}
-.officers {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
-.rank-moderator, .rank-senior-officer, .rank-officer {
-    width: 100%;
-} 
-.rank-moderator > .rank-members {
-    flex-direction: row;
-    text-align: center;
-}
-.rank-moderator > .rank-members > li {
-    width: 15%;
-    
-} 
-.senior-officer-left, .senior-officer-right {
-    width: 15%;
-}
-.rank-senior-officer > .rank-members, .rank-officer > .rank-members {
-    flex-direction: row;
-    text-align: center;
-}
-.officer-left, .officer-mid, .officer-right {
-    width: 33%;
-}
-.rank-officer > .rank-members {
-    flex-direction: row;
-}
 .rank-members {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    outline: 1px solid blue;
+}
+.rank-founder, .rank-moderator, .rank-senior-officer, .rank-officer {
+    width: 100%;
+    text-align: center;  
+    outline: 1px solid blue;  
+} 
+.founder-mid, .moderator-left, .moderator-right, .senior-officer-left, .senior-officer-mid, .senior-officer-right, .officer-left, .officer-mid-left, .officer-mid-right, .officer-right {
+    width: 25%;
+    outline: 1px solid blue;
+}
+.rank-founder > .rank-members, .rank-moderator > .rank-members, .rank-senior-officer > .rank-members, .rank-officer > .rank-members {
+    flex-direction: row;
+    text-align: center;
 }
