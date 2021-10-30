@@ -117,7 +117,7 @@ html, body {
 .rules {
     border-radius: 0;
     text-align: left;
-    outline: 1px dashed blue;
+    /* outline: 1px dashed blue; */
 }
 .clan-name {
     color: rgb(6, 127, 241);
