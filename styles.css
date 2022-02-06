@@ -52,7 +52,7 @@ html, body {
 }
 .nav a {
     display: inline-block;
-    color: #06e406;
+    color: #a335ee;
     text-decoration: none;
     /* border-radius: 8px; */
 }
@@ -77,7 +77,7 @@ html, body {
     padding: 0 .25em;
 }
 .container {
-    color: rgb(6, 127, 241);
+    color: #e61000;
     font-weight: lighter;
     font-size: 1.35em;
     width: 1000px;
@@ -87,7 +87,7 @@ html, body {
     background-color: rgba(2, 2, 2, 0.75);
 }
 .container a {
-    color: #06e406;
+    color: #a335ee;
 }
 .container a:hover {
     background-color: black;
@@ -110,7 +110,7 @@ html, body {
 /* CODE OF CONDUCT */
 
 .notice {
-    color: rgb(6, 127, 241);
+    color: #e61000;
     text-align: center;
 }
 
@@ -120,7 +120,7 @@ html, body {
     /* outline: 1px dashed blue; */
 }
 .clan-name {
-    color: rgb(6, 127, 241);
+    color: #e61000;
     text-align: center;
 }
 .coc-notice {
@@ -196,7 +196,7 @@ html, body {
 }
 .join button {
     padding: .2em;
-    color: #06e406;
+    color: #FFEE00;
     background-color: rgba(56, 56, 56, 0.5);
     border: none;
     border-radius: 8px;
@@ -209,6 +209,7 @@ html, body {
 
 .rank a {
     text-decoration: none;
+    color: #e61000;
 }
 .rank a:hover {
     text-decoration: underline;
@@ -220,18 +221,19 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    outline: 1px solid blue;
+    outline: 1px solid #a335ee;
 }
 .rank-founder, .rank-moderator, .rank-senior-officer, .rank-officer {
     width: 100%;
-    text-align: center;  
-    outline: 1px solid blue;  
+    text-align: center;
+    outline: 1px solid #a335ee;  
 } 
 .founder-mid, .moderator-left, .moderator-right, .senior-officer-left, .senior-officer-mid, .senior-officer-right, .officer-left, .officer-mid-left, .officer-mid-right, .officer-right {
-    width: 25%;
-    outline: 1px solid blue;
+    width: 26%;
+    outline: 1px solid #a335ee;
 }
 .rank-founder > .rank-members, .rank-moderator > .rank-members, .rank-senior-officer > .rank-members, .rank-officer > .rank-members {
     flex-direction: row;
     text-align: center;
+    color: #a335ee;
 }
